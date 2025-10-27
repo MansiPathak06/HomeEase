@@ -105,7 +105,7 @@ function OurServicesPage() {
       title: 'Appliance Repair',
       description: 'Quick and reliable fixes for all your home appliances and electronic devices',
       features: ['Washing Machine', 'Refrigerator Repair', 'Microwave Service', 'Dishwasher Fix', 'Oven Repair', 'Chimney Service'],
-      image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761499268/Appliance_Repair_ybs8nw.jpg',
       bgGradient: 'from-red-500/20 to-orange-500/20'
     }
   ];
@@ -116,7 +116,7 @@ function OurServicesPage() {
       icon: Hammer,
       title: 'Carpentry Work',
       description: 'Custom woodwork, furniture repair, and carpentry crafted to perfection',
-      image: 'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536143/Carpentry_Work_rvo7n7.jpg',
       details: ['Furniture Making', 'Door Installation', 'Cabinet Work', 'Wood Repairs']
     },
     {
@@ -124,7 +124,7 @@ function OurServicesPage() {
       icon: Home,
       title: 'Home Renovation',
       description: 'Complete home makeover, remodeling, and interior design services',
-      image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536145/Home_Renovation_w7qwi8.jpg',
       details: ['Kitchen Remodel', 'Bathroom Upgrade', 'Room Renovation', 'Floor Design']
     },
     {
@@ -132,7 +132,7 @@ function OurServicesPage() {
       icon: Leaf,
       title: 'Gardening & Landscaping',
       description: 'Beautiful garden design, lawn care, and professional landscaping',
-      image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536144/Gardening_Landscaping_hj5qae.jpg',
       details: ['Lawn Mowing', 'Plant Care', 'Garden Design', 'Tree Trimming']
     },
     {
@@ -140,7 +140,7 @@ function OurServicesPage() {
       icon: Bug,
       title: 'Pest Control',
       description: 'Safe and effective pest elimination and prevention services',
-      image: 'https://images.unsplash.com/photo-1563207153-f403bf289096?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536159/Pest_Control_effbvx.jpg',
       details: ['Termite Control', 'Rodent Removal', 'Insect Treatment', 'Sanitization']
     },
     {
@@ -148,7 +148,7 @@ function OurServicesPage() {
       icon: Tv,
       title: 'TV & Electronics Setup',
       description: 'Installation and repair of home entertainment and electronic systems',
-      image: 'https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536160/TV_Electronics_Setup_qlbsig.jpg',
       details: ['TV Wall Mounting', 'Home Theater', 'Cable Management', 'Speaker Setup']
     },
     {
@@ -156,7 +156,7 @@ function OurServicesPage() {
       icon: Drill,
       title: 'Furniture Assembly',
       description: 'Professional furniture assembly, installation, and setup services',
-      image: 'https://images.unsplash.com/photo-1581539250439-c96689b516dd?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536144/Furniture_Assembly_frfjwc.jpg',
       details: ['IKEA Assembly', 'Bed Setup', 'Wardrobe Install', 'Shelf Mounting']
     },
     {
@@ -164,7 +164,7 @@ function OurServicesPage() {
       icon: Truck,
       title: 'Moving & Shifting',
       description: 'Safe and efficient home and office relocation services',
-      image: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536148/Moving_Shifting_dqu5gl.jpg',
       details: ['Home Moving', 'Office Shifting', 'Packing Service', 'Vehicle Transport']
     },
     {
@@ -172,7 +172,7 @@ function OurServicesPage() {
       icon: Settings,
       title: 'Smart Home Setup',
       description: 'IoT device installation and complete home automation solutions',
-      image: 'https://images.unsplash.com/photo-1558002038-1055907df827?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536160/Smart_Home_Setup_gaqkdq.jpg',
       details: ['Smart Lights', 'Voice Control', 'Security Systems', 'Automation']
     },
     {
@@ -180,7 +180,7 @@ function OurServicesPage() {
       icon: DoorOpen,
       title: 'Door & Window Services',
       description: 'Installation, repair, and replacement of doors and windows',
-      image: 'https://images.unsplash.com/photo-1534172964655-76e93684c83c?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536144/Door_Window_Services_ipjyf2.jpg',
       details: ['Door Repair', 'Window Installation', 'Screen Replacement', 'Lock Fixing']
     },
     {
@@ -188,7 +188,7 @@ function OurServicesPage() {
       icon: Flame,
       title: 'Geyser & Water Heater',
       description: 'Installation, repair, and maintenance of water heating systems',
-      image: 'https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536145/Geyser_Water_Heater_uxgxsb.jpg',
       details: ['Geyser Installation', 'Thermostat Repair', 'Element Replacement', 'Service']
     },
     {
@@ -196,7 +196,7 @@ function OurServicesPage() {
       icon: Fence,
       title: 'Fencing & Gate Work',
       description: 'Professional fence installation, repair, and gate automation',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536144/Fencing_Gate_Work_koexy7.jpg',
       details: ['Fence Installation', 'Gate Repair', 'Automation', 'Boundary Wall']
     },
     {
@@ -204,7 +204,7 @@ function OurServicesPage() {
       icon: Lock,
       title: 'Locksmith Services',
       description: 'Emergency lockout assistance and security lock installation',
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536145/Locksmith_Service_drgetb.jpg',
       details: ['Lock Repair', 'Key Duplication', 'Emergency Unlock', 'Security Upgrade']
     },
     {
@@ -212,7 +212,7 @@ function OurServicesPage() {
       icon: Camera,
       title: 'CCTV & Security',
       description: 'Complete security camera installation and surveillance systems',
-      image: 'https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536144/CCTV_Security_abtcdk.jpg',
       details: ['CCTV Installation', 'DVR Setup', 'Remote Monitoring', 'Maintenance']
     },
     {
@@ -220,7 +220,7 @@ function OurServicesPage() {
       icon: Waves,
       title: 'Water Purifier Service',
       description: 'RO, UV, and water purifier installation and maintenance',
-      image: 'https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536167/Water_Purifier_Service_yktevb.jpg',
       details: ['RO Installation', 'Filter Change', 'AMC Service', 'Water Testing']
     },
     {
@@ -228,7 +228,7 @@ function OurServicesPage() {
       icon: TreePine,
       title: 'Tree Service & Care',
       description: 'Tree trimming, removal, and professional arborist services',
-      image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536160/Tree_Service_Care_avpshd.jpg',
       details: ['Tree Trimming', 'Removal Service', 'Stump Grinding', 'Plant Care']
     },
     {
@@ -236,7 +236,7 @@ function OurServicesPage() {
       icon: Package,
       title: 'Handyman Services',
       description: 'All-in-one handyman for minor repairs and general maintenance',
-      image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536145/Handyman_Services_ahcjtn.jpg',
       details: ['Minor Repairs', 'Fixture Install', 'Drywall Patch', 'General Fixes']
     },
     {
@@ -244,7 +244,7 @@ function OurServicesPage() {
       icon: Sofa,
       title: 'Upholstery Cleaning',
       description: 'Deep cleaning and restoration of furniture upholstery',
-      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536166/Upholstery_Cleaning_aeodvk.jpg',
       details: ['Sofa Cleaning', 'Mattress Cleaning', 'Carpet Wash', 'Stain Removal']
     },
     {
@@ -252,7 +252,7 @@ function OurServicesPage() {
       icon: Lightbulb,
       title: 'Lighting Solutions',
       description: 'Modern lighting design, installation, and smart lighting setup',
-      image: 'https://images.unsplash.com/photo-1565008576549-57569a49371d?w=600&h=450&fit=crop',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536145/Lighting_Solutions_ey6zwl.jpg',
       details: ['LED Installation', 'Chandelier Setup', 'Smart Lights', 'Outdoor Lighting']
     }
   ];
@@ -264,44 +264,7 @@ function OurServicesPage() {
     { icon: Star, number: '4.9/5', label: 'Average Rating' }
   ];
 
-  const whyChooseFeatures = [
-    {
-      icon: Shield,
-      title: 'Verified Professionals',
-      description: 'All service providers are background-verified, trained, and highly experienced',
-      image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=600&h=400&fit=crop'
-    },
-    {
-      icon: Clock,
-      title: 'On-Time Service',
-      description: 'We value your time with punctual service delivery and real-time tracking',
-      image: 'https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?w=600&h=400&fit=crop'
-    },
-    {
-      icon: ThumbsUp,
-      title: 'Quality Guaranteed',
-      description: '100% satisfaction guarantee with warranty on all services',
-      image: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=600&h=400&fit=crop'
-    },
-    {
-      icon: Phone,
-      title: '24/7 Support',
-      description: 'Round-the-clock customer support for emergencies and queries',
-      image: 'https://images.unsplash.com/photo-1534536281715-e28d76689b4d?w=600&h=400&fit=crop'
-    },
-    {
-      icon: ArrowRight,
-      title: 'Transparent Pricing',
-      description: 'Upfront quotes with no hidden charges for complete peace of mind',
-      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&fit=crop'
-    },
-    {
-      icon: Award,
-      title: 'Certified Experts',
-      description: 'Licensed technicians with years of experience in their respective fields',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop'
-    }
-  ];
+  
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -344,7 +307,7 @@ function OurServicesPage() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&h=800&fit=crop"
+            src="https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761536158/Professional_Home_Services_Background_yzqgrf.jpg"
             alt="Professional Home Services Background"
             className="w-full h-full object-cover"
           />
@@ -499,137 +462,84 @@ function OurServicesPage() {
       </section>
 
       {/* Additional Services - EXPANDED GRID */}
-      <section className="py-24 px-6 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <motion.div 
-            className="text-center mb-20"
+<section className="py-24 px-6 bg-white">
+  <div className="max-w-7xl mx-auto">
+    <motion.div 
+      className="text-center mb-20"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+    >
+      <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
+        Complete Home Solutions
+      </h2>
+      <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+        Professional services for every corner of your home — all under one roof
+      </p>
+    </motion.div>
+
+    <motion.div 
+      className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ staggerChildren: 0.1 }}
+    >
+      {additionalServices.map((service, index) => {
+        const Icon = service.icon;
+        return (
+          <motion.div
+            key={service.id}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
+            transition={{ delay: index * 0.05 }}
+            className="group bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl border border-gray-200 hover:border-red-500 transition-all duration-300 hover:-translate-y-2"
           >
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Complete Home Solutions
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              Professional services for every corner of your home — all under one roof
-            </p>
+            {/* Increased image height */}
+            <div className="relative h-64 overflow-hidden">
+              <img 
+                src={service.image} 
+                alt={service.title}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 to-transparent"></div>
+            </div>
+
+            <div className="p-5">
+              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center -mt-10 mb-3 shadow-xl relative z-10 group-hover:scale-110 transition-transform">
+                <Icon className="w-6 h-6 text-white" />
+              </div>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                {service.title}
+              </h3>
+              <p className="text-gray-600 text-sm mb-3 leading-relaxed">
+                {service.description}
+              </p>
+              
+              {/* Service Details */}
+              <div className="space-y-1 mb-4">
+                {service.details && service.details.map((detail, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-xs text-gray-700">
+                    <div className="w-1.5 h-1.5 bg-red-600 rounded-full"></div>
+                    <span>{detail}</span>
+                  </div>
+                ))}
+              </div>
+
+              <button className="text-red-600 hover:text-red-700 font-semibold text-xs flex items-center gap-1 group/link">
+                Learn More
+                <ArrowRight className="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" />
+              </button>
+            </div>
           </motion.div>
+        );
+      })}
+    </motion.div>
+  </div>
+</section>
 
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ staggerChildren: 0.1 }}
-          >
-            {additionalServices.map((service, index) => {
-              const Icon = service.icon;
-              return (
-                <motion.div
-                  key={service.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.05 }}
-                  className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl border-2 border-gray-200 hover:border-red-500 transition-all duration-300 hover:-translate-y-2"
-                >
-                  <div className="relative h-48 overflow-hidden">
-                    <img 
-                      src={service.image} 
-                      alt={service.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 to-transparent"></div>
-                  </div>
-                  <div className="p-6">
-                    <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center -mt-12 mb-4 shadow-xl relative z-10 group-hover:scale-110 transition-transform">
-                      <Icon className="w-7 h-7 text-white" />
-                    </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">
-                      {service.title}
-                    </h3>
-                    <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                      {service.description}
-                    </p>
-                    
-                    {/* Service Details */}
-                    <div className="space-y-2 mb-5">
-                      {service.details && service.details.map((detail, idx) => (
-                        <div key={idx} className="flex items-center gap-2 text-xs text-gray-700">
-                          <div className="w-1.5 h-1.5 bg-red-600 rounded-full"></div>
-                          <span>{detail}</span>
-                        </div>
-                      ))}
-                    </div>
 
-                    <button className="text-red-600 hover:text-red-700 font-bold text-sm flex items-center gap-1 group/link">
-                      Learn More
-                      <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                    </button>
-                  </div>
-                </motion.div>
-              );
-            })}
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Why Choose Us - ENHANCED WITH IMAGES */}
-      <section className="py-24 px-6 bg-gradient-to-br from-gray-50 to-red-50">
-        <div className="max-w-7xl mx-auto">
-          <motion.div 
-            className="text-center mb-20"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-              Why Choose Home Ease?
-            </h2>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-              We deliver excellence in every service with verified experts and guaranteed satisfaction
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {whyChooseFeatures.map((benefit, index) => {
-              const Icon = benefit.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.15 }}
-                  className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 group hover:-translate-y-3 border-2 border-gray-100 hover:border-red-500"
-                >
-                  {/* Feature Image */}
-                  <div className="relative h-48 overflow-hidden">
-                    <img 
-                      src={benefit.image} 
-                      alt={benefit.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                  </div>
-
-                  <div className="p-8 text-center">
-                    <div className="w-20 h-20 bg-gradient-to-br from-red-500 to-red-600 rounded-full flex items-center justify-center mx-auto -mt-16 mb-6 group-hover:scale-110 transition-transform shadow-xl relative z-10">
-                      <Icon className="w-10 h-10 text-white" />
-                    </div>
-                    <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                      {benefit.title}
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed text-base">
-                      {benefit.description}
-                    </p>
-                  </div>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
 
       {/* Service Process Section - NEW */}
       <section className="py-24 px-6 bg-white">
@@ -648,82 +558,84 @@ function OurServicesPage() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                step: '01',
-                icon: Phone,
-                title: 'Book Service',
-                description: 'Choose your service and schedule a convenient time',
-                image: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?w=400&h=300&fit=crop'
-              },
-              {
-                step: '02',
-                icon: Users,
-                title: 'Get Matched',
-                description: 'We assign the best verified professional for your needs',
-                image: 'https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=400&h=300&fit=crop'
-              },
-              {
-                step: '03',
-                icon: Wrench,
-                title: 'Service Done',
-                description: 'Expert arrives on time and completes the work',
-                image: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop'
-              },
-              {
-                step: '04',
-                icon: Star,
-                title: 'Rate & Review',
-                description: 'Share your experience and enjoy quality service',
-                image: 'https://images.unsplash.com/photo-1556742521-9713bf272865?w=400&h=300&fit=crop'
-              }
-            ].map((process, index) => {
-              const Icon = process.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.2 }}
-                  className="relative group"
-                >
-                  {/* Step Image */}
-                  <div className="relative h-48 rounded-2xl overflow-hidden mb-6 shadow-lg">
-                    <img 
-                      src={process.image} 
-                      alt={process.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-red-900/70 to-transparent"></div>
-                    
-                    {/* Step Number */}
-                    <div className="absolute top-4 left-4 text-6xl font-bold text-white/30">
-                      {process.step}
-                    </div>
-                  </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+  {[
+    {
+      step: '01',
+      icon: Phone,
+      title: 'Book Service',
+      description: 'Choose your service and schedule a convenient time',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761563226/Book_Service_hwrt4t.jpg'
+    },
+    {
+      step: '02',
+      icon: Users,
+      title: 'Get Matched',
+      description: 'We assign the best verified professional for your needs',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761563225/Get_Matched_ua93zw.jpg'
+    },
+    {
+      step: '03',
+      icon: Wrench,
+      title: 'Service Done',
+      description: 'Expert arrives on time and completes the work',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761563231/Service_Done_wf7afl.jpg'
+    },
+    {
+      step: '04',
+      icon: Star,
+      title: 'Rate & Review',
+      description: 'Share your experience and enjoy quality service',
+      image: 'https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761563229/Rate_Review_dicdgy.jpg'
+    }
+  ].map((process, index) => {
+    const Icon = process.icon;
+    return (
+      <motion.div
+        key={index}
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: index * 0.2 }}
+        className="relative group"
+      >
+        {/* Step Image (Bigger now) */}
+        <div className="relative h-64 rounded-3xl overflow-hidden mb-6 shadow-xl">
+          <img
+            src={process.image}
+            alt={process.title}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-red-900/70 to-transparent"></div>
 
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg">
-                      <Icon className="w-8 h-8 text-white" />
-                    </div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">
-                      {process.title}
-                    </h3>
-                    <p className="text-gray-600 leading-relaxed">
-                      {process.description}
-                    </p>
-                  </div>
-
-                  {/* Connector Line (except last item) */}
-                  {index < 3 && (
-                    <div className="hidden lg:block absolute top-24 left-full w-full h-1 border-t-2 border-dashed border-gray-300 -translate-x-1/2"></div>
-                  )}
-                </motion.div>
-              );
-            })}
+          {/* Step Number */}
+          <div className="absolute top-5 left-5 text-7xl font-extrabold text-white/25">
+            {process.step}
           </div>
+        </div>
+
+        {/* Content (Smaller Text) */}
+        <div className="text-center">
+          <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform shadow-lg">
+            <Icon className="w-7 h-7 text-white" />
+          </div>
+          <h3 className="text-lg font-semibold text-gray-900 mb-2">
+            {process.title}
+          </h3>
+          <p className="text-sm text-gray-600 leading-relaxed">
+            {process.description}
+          </p>
+        </div>
+
+        {/* Connector Line (except last item) */}
+        {index < 3 && (
+          <div className="hidden lg:block absolute top-28 left-full w-full h-1 border-t-2 border-dashed border-gray-300 -translate-x-1/2"></div>
+        )}
+      </motion.div>
+    );
+  })}
+</div>
+
         </div>
       </section>
 
@@ -748,7 +660,7 @@ function OurServicesPage() {
             >
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-white/20">
                 <img 
-                  src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=700&h=800&fit=crop" 
+                  src="https://res.cloudinary.com/dhwxbtiwt/image/upload/v1761538862/Team_imw68d.jpg" 
                   alt="Professional Worker" 
                   className="w-full h-[550px] object-cover"
                 />
@@ -830,75 +742,7 @@ function OurServicesPage() {
         </div>
       </motion.section>
 
-      {/* Footer */}
-      <footer className="bg-white border-t border-gray-200 py-20 px-6">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-            <div className="md:col-span-2">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">
-                Home <span className="text-red-600">Ease</span>
-              </h3>
-              <p className="text-gray-600 mb-8 leading-relaxed text-lg">
-                Your trusted platform for on-demand home services. Professional, reliable, and always ready to help with all your household needs.
-              </p>
-              <div className="flex gap-4">
-                {[Facebook, Twitter, Instagram, Linkedin].map((Social, index) => (
-                  <a
-                    key={index}
-                    href="#"
-                    className="w-12 h-12 bg-red-100 hover:bg-red-600 rounded-full flex items-center justify-center transition-all duration-300 group"
-                  >
-                    <Social className="w-6 h-6 text-red-600 group-hover:text-white transition-colors" />
-                  </a>
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-gray-900 mb-6 text-xl">Quick Links</h4>
-              <ul className="space-y-4">
-                {['Home', 'Services', 'About Us', 'Contact', 'Book Now', 'Careers', 'Blog'].map((link) => (
-                  <li key={link}>
-                    <a href="#" className="text-gray-600 hover:text-red-600 transition-colors duration-300 flex items-center gap-2 group text-base">
-                      <span className="w-0 group-hover:w-2 h-0.5 bg-red-600 transition-all duration-300"></span>
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-gray-900 mb-6 text-xl">Contact Us</h4>
-              <ul className="space-y-5">
-                <li className="flex items-start gap-4 text-gray-600">
-                  <Phone className="w-6 h-6 text-red-600 mt-1 flex-shrink-0" />
-                  <span className="text-base">(234) 231 - 2323</span>
-                </li>
-                <li className="flex items-start gap-4 text-gray-600">
-                  <Mail className="w-6 h-6 text-red-600 mt-1 flex-shrink-0" />
-                  <span className="text-base">info@homeease.com</span>
-                </li>
-                <li className="flex items-start gap-4 text-gray-600">
-                  <MapPin className="w-6 h-6 text-red-600 mt-1 flex-shrink-0" />
-                  <span className="text-base">123 Service Street, City, Country</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-600 text-center md:text-left text-base">
-              © 2025 Home Ease. All rights reserved.
-            </p>
-            <div className="flex gap-8 text-base">
-              <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-600 hover:text-red-600 transition-colors">Refund Policy</a>
-            </div>
-          </div>
-        </div>
-      </footer>
+     
     </div>
   );
 }
