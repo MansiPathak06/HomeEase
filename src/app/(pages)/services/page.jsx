@@ -311,7 +311,7 @@ function OurServicesPage() {
             alt="Professional Home Services Background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-red-600/95 to-red-700/90"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-red-600/50 to-red-700/90"></div>
         </div>
 
         {/* Content - CENTERED */}
