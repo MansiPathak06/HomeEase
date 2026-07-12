@@ -1,13 +1,15 @@
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
-const { testConnection } = require('./config/db');
 const paymentRoutes = require('./routes/paymentRoutes');
 const reviewRoutes = require('./routes/reviewRoutes');
 const societyLeadRoutes = require('./routes/societyLeadRoutes');
+const { Server: SocketIOServer } = require('socket.io');
+const { setIO, expireOldBroadcasts } = require('./controllers/broadcastBookingController');
+const { userBroadcastRouter, vendorBroadcastRouter } = require('./routes/broadcastRoutes');
 
-// Load environment variables
-dotenv.config();
+const { testConnection } = require('./config/db');
 
 // Initialize express app
 const app = express();
@@ -29,6 +31,8 @@ app.use('/api/reviews', reviewRoutes);
 app.use('/api/vendors', require('./routes/vendorPublicRoutes'));
 app.use('/api/society-leads', societyLeadRoutes);
 app.use('/api/ai-recommend', require('./routes/aiRecommendRoutes'));
+app.use('/api/user',   userBroadcastRouter);    // new broadcast user routes
+app.use('/api/vendor', vendorBroadcastRouter);  // new broadcast vendor routes
 
 app.use('/api/payment', paymentRoutes);
 // Health check route
@@ -86,6 +90,52 @@ const startServer = async () => {
 
     // Attach WebSocket tracking server
     setupTrackingServer(server);
+
+
+// ── Socket.io setup (separate from existing WebSocket tracking) ──
+const io = new SocketIOServer(server, {
+  path: '/socket.io',  // default path, different from /tracking WS
+  cors: {
+    origin     : process.env.FRONTEND_URL,
+    credentials: true,
+  },
+});
+ 
+// Share io instance with broadcast controller
+setIO(io);
+ 
+// Connection handler
+io.on('connection', (socket) => {
+  console.log(`🔌 Socket connected: ${socket.id}`);
+ 
+  // Vendor joins their personal room on login
+  // Frontend sends: socket.emit('vendor:join', { vendorId })
+  socket.on('vendor:join', ({ vendorId }) => {
+    if (!vendorId) return;
+    socket.join(`vendor:${vendorId}`);
+    console.log(`📦 Vendor ${vendorId} joined room vendor:${vendorId}`);
+  });
+ 
+  // User joins their personal room to receive booking confirmations
+  // Frontend sends: socket.emit('user:join', { userId })
+  socket.on('user:join', ({ userId }) => {
+    if (!userId) return;
+    socket.join(`user:${userId}`);
+    console.log(`👤 User ${userId} joined room user:${userId}`);
+  });
+ 
+  socket.on('disconnect', () => {
+    console.log(`❌ Socket disconnected: ${socket.id}`);
+  });
+});
+ 
+console.log('✅ Socket.io server ready on /socket.io');
+ 
+// ── Broadcast expiry cleanup — runs every 2 minutes ──
+setInterval(expireOldBroadcasts, 2 * 60 * 1000);
+console.log('⏰ Broadcast expiry cleanup scheduled every 2 min');
+
+
 
     server.listen(PORT, () => {
       console.log('=================================');

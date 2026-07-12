@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [],
@@ -26,6 +27,7 @@
     "razorpay": "^2.9.6",
     "react-leaflet": "^5.0.0",
     "recharts": "^3.8.1",
+    "socket.io": "^4.8.3",
     "ws": "^8.19.0"
   },
   "devDependencies": {
